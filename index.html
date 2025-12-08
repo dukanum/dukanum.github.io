@@ -3,21 +3,33 @@
 <head>
 <meta charset="UTF-8">
 <title>Dukanum - Your e-Store</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+<meta name="mobile-web-app-capable" content="yes" />
+<meta
+  name="apple-mobile-web-app-status-bar-style"
+  content="black-translucent"
+/>
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 
 <style>
   body {
-    font-family: Roboto;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    padding: 20px;
+    padding: 50px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
   }
   p{
-    max-width: 500px;
+    max-width: 570px;
     line-height: 190%;
     color: #333;
   } 
@@ -36,7 +48,7 @@
 <body>
 
 <section class="content">
-  <img src="dukanum.svg" height="80"/>
+  <img src="dukanum.svg?cache=1" height="120"/>
   <p>
     Bridging the gap between businesses and peoples with our AI-powered solutions. It is a bidirectional engagement ecosystem where your e-store can seamlessly reach peoples, and peoples can easily find the right products in nearby stores. Innovation is underway!
   </p>
@@ -44,8 +56,8 @@
     <Img src="tp-linkedin.svg" height="32" style="margin-top: 10px;"/>
     </a>
 </section>
-<footer style="position:fixed; right:30px; bottom:30px; color: #999; color: #999; font-size: 90%;">
-  Copyright &copy; dukanum.com. All rights reserved.
+<footer style="position:fixed; right:10px; bottom:10px; color: #999; color: #999; font-size: 90%;">
+  Copyright&copy;dukanum.com. All rights reserved.
 </footer>
 </body>
 </html>
